@@ -33,6 +33,26 @@ The website is publicly accessible through the Amazon S3 Static Website Endpoint
 ## Project Screenshots
 
 Screenshots are available in the **screenshots/** folder.
+### 1. S3 Bucket List
+![S3 Bucket](screenshots/01-S3-Buckets-list.png)
+
+### 2. Uploaded Objects
+![Objects](screenshots/02-Show-Objects.png)
+
+### 3. Static Website Hosting Enabled
+![Hosting](screenshots/03-Hosting-enabled.png)
+
+### 4. Bucket Policy
+![Policy](screenshots/04-Access-setting-&-Bucket-policy.png)
+
+### 5. Website Endpoint
+![Endpoint](screenshots/05-Endpoint-URL.png)
+
+### 6. Home Page
+![Home](screenshots/06-Home-Page-index-SS.png)
+
+### 7. Custom 404 Error Page
+![404](screenshots/07-Custom-404-page-error-ss.png)
 
 ---
 

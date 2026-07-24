@@ -55,6 +55,27 @@ Screenshots are available in the **screenshots/** folder.
 ![404](screenshots/07-Custom-404-page-error-ss.png)
 
 ---
+## AWS CLI Operations
+
+After deploying the static website, I also managed the S3 bucket using AWS CLI.
+
+### Commands Performed
+
+- Listed bucket objects using `aws s3 ls`
+- Downloaded website files using `aws s3 cp`
+- Edited the website locally
+- Uploaded updated files back to the S3 bucket
+- Synchronized the S3 bucket to the local machine using `aws s3 sync`
+- Created a new file (`hello.txt`)
+- Uploaded the new file to Amazon S3 using:
+
+```bash
+aws s3 sync . s3://awsa-static-demo/
+```
+
+### AWS CLI Screenshot
+
+![AWS CLI Operations](screenshots/08-aws-cli-operations.png)
 
 ## Learning Outcomes
 
@@ -64,3 +85,6 @@ Screenshots are available in the **screenshots/** folder.
 - Public Access Configuration
 - Website Endpoint
 - Custom Error Page
+- AWS CLI
+- S3 Object Management
+- File Synchronization
